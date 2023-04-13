@@ -16,6 +16,10 @@ The plane is expressed as an array called "data" and is built on the same princi
 The function perform a process of scanning the grid of values of x and y, and set the value 1 in the "data" memory when the absolute difference between the calculated value of the function f(x, y) and the given d value is less than the epsilon value.
 Otherwise, the memory will be set to 0.
 
+</br>
+
+### Good to know
+Currently, the program does not have an option to enter custom variables through the console. One needs to change the values of Xa, Ya, Xb, Yb, d, epsilon, as well as M and N in the code.
 
 ## Setup
 Just run sln.
